@@ -28,9 +28,9 @@ def won?(board)
     
     if position == position_2 && position_2 == position_3 && position_taken?(board)
       return single_win_combo
-    else 
-      return false
     end
+    
+    return false
 end
 
 def full?(board)
